@@ -1,0 +1,3 @@
+[submodule "sakurai-skill"]
+	path = .agents/skills/sakurai-skill
+	url = https://github.com/kociden/sakurai-skill.git
