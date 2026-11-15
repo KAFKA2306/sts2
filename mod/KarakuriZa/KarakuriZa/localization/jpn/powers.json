@@ -1,0 +1,14 @@
+{
+  "KARAKURIZA-STAND_IN_POWER.title": "代役",
+  "KARAKURIZA-STAND_IN_POWER.description": "次の自分のターンまで、敵の攻撃1ヒットを代役が引き受けて返す。",
+  "KARAKURIZA-SPOTLIGHT_POWER.title": "照明",
+  "KARAKURIZA-SPOTLIGHT_POWER.description": "座長がこの敵に照明を当てている。",
+  "KARAKURIZA-SPOTLIGHT_CUE_POWER.title": "二灯照明",
+  "KARAKURIZA-SPOTLIGHT_CUE_POWER.description": "照明先への単体アタックは1ヒットずつ2体に配分する。",
+  "KARAKURIZA-SCRIPT_MARGIN_POWER.title": "台本の余白",
+  "KARAKURIZA-SCRIPT_MARGIN_POWER.description": "ターン開始時、追加でカードを1枚引く。",
+  "KARAKURIZA-FINAL_SHOW_POWER.title": "千秋楽",
+  "KARAKURIZA-FINAL_SHOW_POWER.description": "ターン開始時、1エナジーを得る。",
+  "KARAKURIZA-SCRIPT_MARGIN_POWER.smartDescription": "ターン開始時、追加でカードを{Amount}枚引く。",
+  "KARAKURIZA-FINAL_SHOW_POWER.smartDescription": "ターン開始時、{Amount}エナジーを得る。"
+}

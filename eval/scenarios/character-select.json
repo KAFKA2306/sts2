@@ -1,0 +1,17 @@
+{
+  "id": "character_select",
+  "steps": [
+    {
+      "before": ".screen == \"CHARACTER_SELECT\" and .character_select.is_multiplayer == false and any(.character_select.characters[]; .character_id == \"KARAKURIZA-DIRECTOR\" and .is_locked == false)",
+      "action": "{action: \"select_character\", option_index: first(.character_select.characters[] | select(.character_id == \"KARAKURIZA-DIRECTOR\") | .index)}",
+      "after": ".screen == \"CHARACTER_SELECT\" and .character_select.selected_character_id == \"KARAKURIZA-DIRECTOR\"",
+      "screenshot": true
+    },
+    {
+      "before": ".screen == \"CHARACTER_SELECT\" and .character_select.selected_character_id == \"KARAKURIZA-DIRECTOR\" and .character_select.can_embark == true",
+      "action": "{action: \"embark\"}",
+      "after": "([.run.deck[]?.card_id] | group_by(.) | map({key: .[0], value: length}) | from_entries) == {\"KARAKURIZA-STRIKE\":4,\"KARAKURIZA-DEFEND\":4,\"KARAKURIZA-THREAD_FEED\":1,\"KARAKURIZA-PUPPET_STRIKE\":1} and any(.run.relics[]?; .relic_id == \"KARAKURIZA-THREE_ACT_MECHANISM\")",
+      "screenshot": true
+    }
+  ]
+}

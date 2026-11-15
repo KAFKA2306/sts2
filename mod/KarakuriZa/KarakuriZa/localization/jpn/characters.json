@@ -1,0 +1,14 @@
+{
+  "KARAKURIZA-DIRECTOR.title": "からくり座の座長",
+  "KARAKURIZA-DIRECTOR.titleObject": "からくり座の座長",
+  "KARAKURIZA-DIRECTOR.description": "旅の人形遣い。3枚目の札で舞台を動かす。",
+  "KARAKURIZA-DIRECTOR.pronounSubject": "座長",
+  "KARAKURIZA-DIRECTOR.pronounObject": "座長",
+  "KARAKURIZA-DIRECTOR.pronounPossessive": "座長のもの",
+  "KARAKURIZA-DIRECTOR.possessiveAdjective": "座長の",
+  "KARAKURIZA-DIRECTOR.cardsModifierTitle": "からくり座",
+  "KARAKURIZA-DIRECTOR.cardsModifierDescription": "からくり座のカードがカード報酬に出る。",
+  "KARAKURIZA-DIRECTOR.bestiaryQuote": "照明は落とさないでくれ。",
+  "KARAKURIZA-DIRECTOR.eventDeathPrevention": "幕はまだ下りていない。",
+  "KARAKURIZA-DIRECTOR.unlockText": "開演できる。"
+}
