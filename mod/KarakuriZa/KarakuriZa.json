@@ -1,0 +1,14 @@
+{
+  "id": "KarakuriZa",
+  "name": "Karakuri Troupe",
+  "author": "KAFKA2306",
+  "description": "A puppeteer whose third card cues the next act.",
+  "version": "v0.1.0",
+  "min_game_version": "0.111.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {"id": "BaseLib", "min_version": "3.4.8"}
+  ],
+  "affects_gameplay": true
+}

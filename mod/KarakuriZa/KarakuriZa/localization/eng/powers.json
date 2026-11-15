@@ -1,0 +1,14 @@
+{
+  "KARAKURIZA-STAND_IN_POWER.title": "Stand-In",
+  "KARAKURIZA-STAND_IN_POWER.description": "Before your next turn, a puppet takes the next enemy attack hit and returns its damage.",
+  "KARAKURIZA-SPOTLIGHT_POWER.title": "Spotlight",
+  "KARAKURIZA-SPOTLIGHT_POWER.description": "A member of the troupe has put this enemy in the light.",
+  "KARAKURIZA-SPOTLIGHT_CUE_POWER.title": "Two Spotlights",
+  "KARAKURIZA-SPOTLIGHT_CUE_POWER.description": "Your single-target Attacks split each hit between your two lit enemies.",
+  "KARAKURIZA-SCRIPT_MARGIN_POWER.title": "Script Margin",
+  "KARAKURIZA-SCRIPT_MARGIN_POWER.description": "Draw 1 additional card(s) at the start of your turn.",
+  "KARAKURIZA-FINAL_SHOW_POWER.title": "Final Show",
+  "KARAKURIZA-FINAL_SHOW_POWER.description": "Gain 1 Energy at the start of your turn.",
+  "KARAKURIZA-SCRIPT_MARGIN_POWER.smartDescription": "Draw {Amount} additional card(s) at the start of your turn.",
+  "KARAKURIZA-FINAL_SHOW_POWER.smartDescription": "Gain {Amount} Energy at the start of your turn."
+}

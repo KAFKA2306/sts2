@@ -1,0 +1,46 @@
+{
+  "third_card": {
+    "hp8_puppet": "victory",
+    "hp8_defend": "survives",
+    "hp9_puppet": "defeat",
+    "hp9_defend": "survives",
+    "power_cards_drawn": 2,
+    "new_turn_counter": 3,
+    "fourth_card_counter_delta": 0,
+    "autoplay_counter_delta": 0,
+    "replay_counter_delta": 0,
+    "potion_counter_delta": 0
+  },
+  "stand_in": {
+    "returned_damage": 3,
+    "retaliations": 1,
+    "block_after_first_hit": 2,
+    "hp_after_second_hit": 9
+  },
+  "two_spotlights": {
+    "selected_enemy_damage": 5,
+    "other_enemy_damage": 4,
+    "selected_enemy_with_relic_damage": 8,
+    "other_enemy_with_relic_damage": 4,
+    "selected_enemy_hp_loss_with_2_block": 3,
+    "other_enemy_hp_loss_with_1_block": 3,
+    "survivor_damage_on_next_9_damage_hit": 9
+  },
+  "grand_device": {
+    "card_in_original_deck_slot_after_reload": "KARAKURIZA-SMALL_DEVICE",
+    "card_in_next_combat": "KARAKURIZA-SMALL_DEVICE",
+    "remaining_uses_on_other_copy": 2
+  },
+  "first_fight": {
+    "character": "KARAKURIZA-DIRECTOR",
+    "starter_relic": "KARAKURIZA-THREE_ACT_MECHANISM",
+    "deck_card_counts": {
+      "KARAKURIZA-STRIKE": 4,
+      "KARAKURIZA-DEFEND": 4,
+      "KARAKURIZA-THREAD_FEED": 1,
+      "KARAKURIZA-PUPPET_STRIKE": 1
+    },
+    "first_fight_won": true,
+    "reward_contains_troupe_card": true
+  }
+}

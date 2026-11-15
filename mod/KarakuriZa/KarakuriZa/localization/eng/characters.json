@@ -1,0 +1,14 @@
+{
+  "KARAKURIZA-DIRECTOR.title": "The Troupe Director",
+  "KARAKURIZA-DIRECTOR.titleObject": "the Troupe Director",
+  "KARAKURIZA-DIRECTOR.description": "A traveling puppeteer. The third card sets the stage in motion.",
+  "KARAKURIZA-DIRECTOR.pronounSubject": "they",
+  "KARAKURIZA-DIRECTOR.pronounObject": "them",
+  "KARAKURIZA-DIRECTOR.pronounPossessive": "theirs",
+  "KARAKURIZA-DIRECTOR.possessiveAdjective": "their",
+  "KARAKURIZA-DIRECTOR.cardsModifierTitle": "Karakuri Troupe",
+  "KARAKURIZA-DIRECTOR.cardsModifierDescription": "Cards from the Karakuri Troupe appear in card rewards.",
+  "KARAKURIZA-DIRECTOR.bestiaryQuote": "Keep the lights on.",
+  "KARAKURIZA-DIRECTOR.eventDeathPrevention": "The show goes on.",
+  "KARAKURIZA-DIRECTOR.unlockText": "Ready to perform."
+}
