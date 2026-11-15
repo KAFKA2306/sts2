@@ -17,7 +17,12 @@ public static class Mod
 public sealed class Director : PlaceholderCharacterModel
 {
     internal static readonly Color Brass = new("bd8b42");
-    public override string CustomCharacterSelectIconPath => "res://KarakuriZa/images/three_act_mechanism.svg";
+    private const string Portrait = "res://KarakuriZa/images/director/portrait.webp";
+    public override string CustomVisualPath => "res://KarakuriZa/scenes/director.tscn";
+    public override string CustomCharacterSelectIconPath => Portrait;
+    public override string CustomIconTexturePath => Portrait;
+    public override string CustomRestSiteAnimPath => "res://KarakuriZa/scenes/director_rest.tscn";
+    public override float DeathAnimTime => 0.65f;
     public override Color NameColor => Brass;
     public override CharacterGender Gender => CharacterGender.Neutral;
     public override int StartingHp => 70;

@@ -13,8 +13,10 @@ namespace KarakuriZa;
 public abstract class TroupeCard(int cost, CardType type, CardRarity rarity, TargetType target)
     : CustomCardModel(cost, type, rarity, target)
 {
-    public override string PortraitPath => MissingPortraitPath;
-    public override string BetaPortraitPath => MissingPortraitPath;
+    public override string CustomPortraitPath => PortraitPath;
+    public override string PortraitPath =>
+        $"res://KarakuriZa/images/cards/{Id.Entry[(Id.Entry.IndexOf('-') + 1)..].ToLowerInvariant()}.webp";
+    public override string BetaPortraitPath => PortraitPath;
 }
 
 public abstract class TroupeAttack(int cost, CardRarity rarity, int damage, int upgrade)

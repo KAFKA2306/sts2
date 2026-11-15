@@ -14,7 +14,7 @@
 
 ## 開発ビルド
 
-`mod/KarakuriZa` にキャラクター、14枚のカード、初期レリック、日英テキストを置く。キャラクター本体とカード絵は仮素材を使う。
+`mod/KarakuriZa` にキャラクター、14枚のカード、初期レリック、日英テキストを置く。戦闘・休憩所の座長イラストと14枚のカード絵を収録する。戦闘の動きはGodotのAnimationPlayerで再生する。
 
 ```sh
 Sts2DataDir=/abs/path/to/game/data \
